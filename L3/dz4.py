@@ -1,6 +1,5 @@
 x = float(input('Enter first number: '))
 y = float(input('Enter second number: '))
-print(type(x), type(y))
 operator = input('Enter operation (+,-,*,/ or **): ')
 if operator == "+":
     print(x + y)
