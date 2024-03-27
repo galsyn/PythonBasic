@@ -1,5 +1,3 @@
-import string
-
 yes_ = 'yes'
 while yes_.lower() == 'yes' or yes_.lower() == 'y':
     x = float(input('Enter first number: '))
