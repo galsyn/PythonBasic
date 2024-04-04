@@ -2,8 +2,7 @@ import string
 def is_palindrome(text):
     text1 = text.lower().replace(" ", "")
     for sign_ in string.punctuation:
-        if sign_ in text1:
-            text1 = text1.replace(sign_, '')
+        text1 = text1.replace(sign_, '')
     if text1 == text1[::-1]:
         return True
     else:
