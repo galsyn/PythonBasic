@@ -1,5 +1,5 @@
 def is_even(number):
-    return int(str(number)[-1]) % 2 == 0
+    return str(number)[-1] in map(str, range(0, 9, 2))
 
 
 assert is_even(2494563894038**2) == True, 'Test1'
