@@ -107,3 +107,4 @@ except MyException as err:
     print(f'{err.x}: {err.get_message()}\n')
 
 print(gr)
+print(f"Total {len(gr.group)} students")
